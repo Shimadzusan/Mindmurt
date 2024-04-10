@@ -8,7 +8,7 @@ class Mindmurt:
 
     # Method to display information about the person
     def runMindmurt(self):
-        bot = telebot.TeleBot('7031513468:AAG3B_TRgNDUjVA7IGW9RPlvwSvZC-YTPaY')
+        bot = telebot.TeleBot('')
         @bot.message_handler(content_types=['text'])
         def get_text_messages(message):
             # @bot.message_handler(content_types=['text', 'document', 'audio'])
